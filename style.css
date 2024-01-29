@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid blue;
+}
+
+.section {
+    width: 1000px;
+
+}
+
+header {
+
+    margin: 20px 10px 20px 40px;
+
+
+}
+
+.main {
+    display: flex;
+    flex-flow: wrap row;
+
+    height: 60%;
+
+}
+
+.aside {
+    line-height: 2;
+    margin-left: 30PX;
+    width: 40%;
+}
+
+.aside2 {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: left;
+    width: 30%;
+}
+
+#column {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: left;
+    margin-top: 20px;
+
+
+
+}
